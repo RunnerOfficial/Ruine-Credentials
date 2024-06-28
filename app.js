@@ -38,7 +38,7 @@ app.get('/callback', async (req, res) => {
             
             console.log(access_token,refresh_token);
             
-            const redirectUri = `https://ruine-credentials.onrender-chu6.com/getAuth?access_token=${access_token}&refresh_token=${refresh_token}&expires_in=${expires_in}`;
+            const redirectUri = `https://ruine-credentials-chu6.onrender.com/getAuth?access_token=${access_token}&refresh_token=${refresh_token}&expires_in=${expires_in}`;
             res.redirect(redirectUri);
 
         } catch (error) {
