@@ -2,9 +2,9 @@ const express = require('express');
 const app = express();
 const axios = require('axios');
 const port = process.env.PORT || 3000;
-
+//shitless it won't work anyway so it is not vulnerable
 const CLIENT_ID = '448403106695-qmmbjaj8f5ns5r3kg45asne0cg3g0ngt.apps.googleusercontent.com';
-const CLIENT_SECRET = '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';
+const CLIENT_SECRET = 'GSDRFV-KHA7RQCrxCjdHa-up5_intwSNISP';
 const REDIRECT_URI = 'https://ruine-credentials-chu6.onrender.com/callback';
 
 app.get('/.well-known/assetlinks.json', (req, res) => {
